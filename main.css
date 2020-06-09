@@ -49,12 +49,13 @@
     grid-area: text;
 }
 
-.grid-item-3 h3{
+.grid-item-3 h4{
     color: whitesmoke;
 }
 
 .welcome{
     word-wrap: break-word;
+    font-size: 3vw;
 }
 
 
@@ -71,7 +72,9 @@ body{
     margin : 0;
 }
 
-
+.col-sm-4{
+    font-size: larger;
+}
 
 .footer{
     left: 0;

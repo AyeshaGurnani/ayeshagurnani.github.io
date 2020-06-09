@@ -1,0 +1,92 @@
+.grid-container{
+    background-color: #78244C;
+    background-size: auto;
+    overflow: hidden;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-template-rows: 8% 90%;
+    justify-items: center;
+    grid-template-areas: 
+    "image navbar"
+    "image text";
+    
+    align-items: center;
+}
+
+
+.topnav{
+    display: inline;
+    margin-left: 65%;
+}
+
+.nav-elem a{
+    
+    display: inline;
+    color: whitesmoke;
+    margin-left: 10px;
+}
+
+
+.grid-item-1{
+    grid-area: navbar;
+    color: whitesmoke;
+    display: inline;
+    
+    
+}
+
+.row{
+    display: inline;
+}
+
+.grid-item-2{
+    grid-area: image;
+    
+}
+
+.grid-item-3{
+    grid-area: text;
+}
+
+.grid-item-3 h3{
+    color: whitesmoke;
+}
+
+.welcome{
+    word-wrap: break-word;
+}
+
+
+
+h2{
+    color: whitesmoke;
+}
+
+img{ 
+    vertical-align: middle;
+}
+
+body{
+    margin : 0;
+}
+
+
+
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    text-align: center;
+}
+
+.footer a, h4{
+    color: #78244C;
+    margin-left: 15px;
+}
+
+.footer #mainpage{
+    margin-right: 25%;
+}

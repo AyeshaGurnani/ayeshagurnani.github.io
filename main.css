@@ -314,11 +314,13 @@ body{
   .left-footer
   {
       position: relative;
-      left: 39%;
+      left: 45%;
+      /* overflow: hidden; */
+      margin-bottom: 0;
   }
 
   .right-footer
   {
-      left: 50%;
-      margin-bottom: 10%;
+    position: relative;
+    margin-bottom: 10%;
   }
